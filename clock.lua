@@ -83,10 +83,10 @@ settings_table = {
         fg_colour=0x6c71c4,
         fg_alpha=0.8,
         x=120, y=175,
-        radius=88,
+        radius=90,
         thickness=8,
-        start_angle=-90,
-        end_angle=90
+        start_angle=-120,
+        end_angle=120
     },
     {
         name='time',
@@ -97,10 +97,10 @@ settings_table = {
         fg_colour=0x268bd2,
         fg_alpha=1,
         x=120, y=175,
-        radius=96,
+        radius=98,
         thickness=8,
-        start_angle=-90,
-        end_angle=90
+        start_angle=-120,
+        end_angle=120
     },
     {
         name='cpu',
@@ -110,8 +110,8 @@ settings_table = {
         bg_alpha=0.3,
         fg_colour=0xcb4b16,
         fg_alpha=0.7,
-        x=60, y=320,
-        radius=56,
+        x=300, y=150,
+        radius=58,
         thickness=10,
         start_angle=-150,
         end_angle=150
@@ -122,9 +122,9 @@ settings_table = {
         max=100,
         bg_colour=0x859900,
         bg_alpha=0.3,
-        fg_colour=0xdc322f,
+        fg_colour=0x6c71c4,
         fg_alpha=0.7,
-        x=60, y=320,
+        x=300, y=150,
         radius=48,
         thickness=6,
         start_angle=-150,
@@ -138,7 +138,7 @@ settings_table = {
         bg_alpha=0.3,
         fg_colour=0xd33682,
         fg_alpha=0.7,
-        x=60, y=320,
+        x=300, y=150,
         radius=42,
         thickness=6,
         start_angle=-150,
@@ -150,9 +150,9 @@ settings_table = {
         max=100,
         bg_colour=0x859900,
         bg_alpha=0.3,
-        fg_colour=0x6c71c4,
+        fg_colour=0x268bd2,
         fg_alpha=0.7,
-        x=60, y=320,
+        x=300, y=150,
         radius=36,
         thickness=6,
         start_angle=-150,
@@ -164,9 +164,9 @@ settings_table = {
         max=100,
         bg_colour=0x859900,
         bg_alpha=0.3,
-        fg_colour=0x268bd2,
+        fg_colour=0x2aa198,
         fg_alpha=0.7,
-        x=60, y=320,
+        x=300, y=150,
         radius=30,
         thickness=6,
         start_angle=-150,
@@ -180,8 +180,36 @@ settings_table = {
         bg_alpha=0.3,
         fg_colour=0xd33682,
         fg_alpha=0.7,
-        x=170, y=375,
-        radius=48,
+        x=300, y=275,
+        radius=58,
+        thickness=8,
+        start_angle=-150,
+        end_angle=150
+    },
+    {
+        name='swapperc',
+        arg='',
+        max=100,
+        bg_colour=0x859900,
+        bg_alpha=0.3,
+        fg_colour=0x268bd2,
+        fg_alpha=0.7,
+        x=300, y=275,
+        radius=50,
+        thickness=8,
+        start_angle=-150,
+        end_angle=150
+    },
+    {
+        name='fs_used_perc',
+        arg='/tank',
+        max=100,
+        bg_colour=0x859900,
+        bg_alpha=0.3,
+        fg_colour=0x2aa198,
+        fg_alpha=0.7,
+        x=300, y=400,
+        radius=58,
         thickness=8,
         start_angle=-150,
         end_angle=150
@@ -192,10 +220,24 @@ settings_table = {
         max=100,
         bg_colour=0x859900,
         bg_alpha=0.3,
-        fg_colour=0x2aa198,
+        fg_colour=0x268bd2,
         fg_alpha=0.7,
-        x=70, y=450,
-        radius=48,
+        x=300, y=400,
+        radius=50,
+        thickness=8,
+        start_angle=-150,
+        end_angle=150
+    },
+    {
+        name='fs_used_perc',
+        arg='/mnt/home',
+        max=100,
+        bg_colour=0x859900,
+        bg_alpha=0.3,
+        fg_colour=0x6c71c4,
+        fg_alpha=0.7,
+        x=300, y=400,
+        radius=42,
         thickness=8,
         start_angle=-150,
         end_angle=150
@@ -208,9 +250,9 @@ settings_table = {
         bg_alpha=0.3,
         fg_colour=0xb58900,
         fg_alpha=0.7,
-        x=170, y=500,
-        radius=48,
-        thickness=7,
+        x=300, y=525,
+        radius=58,
+        thickness=8,
         start_angle=-150,
         end_angle=150
     },
@@ -222,13 +264,12 @@ settings_table = {
         bg_alpha=0.3,
         fg_colour=0x6c71c4,
         fg_alpha=0.7,
-        x=170, y=500,
-        radius=40,
-        thickness=7,
+        x=300, y=525,
+        radius=50,
+        thickness=8,
         start_angle=-150,
         end_angle=150
     },
-
 }
 
 -- Use these settings to define the origin and extent of your clock.
@@ -240,7 +281,7 @@ clock_r=100
 clock_x=120
 clock_y=175
 
-show_seconds=false
+show_seconds=true
 
 require 'cairo'
 
