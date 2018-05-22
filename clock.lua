@@ -202,7 +202,7 @@ settings_table = {
     },
     {
         name='fs_used_perc',
-        arg='/tank',
+        arg='/',
         max=100,
         bg_colour=0x859900,
         bg_alpha=0.3,
@@ -216,7 +216,7 @@ settings_table = {
     },
     {
         name='fs_used_perc',
-        arg='/',
+        arg='/mnt/home',
         max=100,
         bg_colour=0x859900,
         bg_alpha=0.3,
@@ -228,20 +228,7 @@ settings_table = {
         start_angle=-150,
         end_angle=150
     },
-    {
-        name='fs_used_perc',
-        arg='/mnt/home',
-        max=100,
-        bg_colour=0x859900,
-        bg_alpha=0.3,
-        fg_colour=0x6c71c4,
-        fg_alpha=0.7,
-        x=180, y=360,
-        radius=38,
-        thickness=8,
-        start_angle=-150,
-        end_angle=150
-    },
+
     {
         name='downspeedf',
         arg='enp4s0',
