@@ -36,7 +36,7 @@ settings_table = {
         -- "fg_alpha" is the alpha value of the indicator part of the ring.
         fg_alpha=0.2,
         -- "x" and "y" are the x and y coordinates of the centre of the ring, relative to the top left corner of the Conky window.
-        x=120, y=175,
+        x=110, y=190,
         -- "radius" is the radius of the ring.
         radius=64,
         -- "thickness" is the thickness of the ring, centred around the radius.
@@ -54,7 +54,7 @@ settings_table = {
         bg_alpha=0.1,
         fg_colour=0xdc322f,
         fg_alpha=0.4,
-        x=120, y=175,
+        x=110, y=190,
         radius=72,
         thickness=8,
         start_angle=0,
@@ -68,7 +68,7 @@ settings_table = {
         bg_alpha=0.1,
         fg_colour=0xd33682,
         fg_alpha=0.6,
-        x=120, y=175,
+        x=110, y=190,
         radius=80,
         thickness=8,
         start_angle=0,
@@ -82,7 +82,7 @@ settings_table = {
         bg_alpha=0.1,
         fg_colour=0x6c71c4,
         fg_alpha=0.8,
-        x=120, y=175,
+        x=110, y=190,
         radius=90,
         thickness=8,
         start_angle=-120,
@@ -96,7 +96,7 @@ settings_table = {
         bg_alpha=0.1,
         fg_colour=0x268bd2,
         fg_alpha=1,
-        x=120, y=175,
+        x=110, y=190,
         radius=98,
         thickness=8,
         start_angle=-120,
@@ -110,8 +110,8 @@ settings_table = {
         bg_alpha=0.3,
         fg_colour=0xcb4b16,
         fg_alpha=0.7,
-        x=300, y=150,
-        radius=58,
+        x=296, y=160,
+        radius=72,
         thickness=10,
         start_angle=-150,
         end_angle=150
@@ -124,8 +124,8 @@ settings_table = {
         bg_alpha=0.3,
         fg_colour=0x6c71c4,
         fg_alpha=0.7,
-        x=300, y=150,
-        radius=48,
+        x=296, y=160,
+        radius=60,
         thickness=6,
         start_angle=-150,
         end_angle=150
@@ -138,8 +138,8 @@ settings_table = {
         bg_alpha=0.3,
         fg_colour=0xd33682,
         fg_alpha=0.7,
-        x=300, y=150,
-        radius=42,
+        x=296, y=160,
+        radius=54,
         thickness=6,
         start_angle=-150,
         end_angle=150
@@ -152,8 +152,8 @@ settings_table = {
         bg_alpha=0.3,
         fg_colour=0x268bd2,
         fg_alpha=0.7,
-        x=300, y=150,
-        radius=36,
+        x=296, y=160,
+        radius=48,
         thickness=6,
         start_angle=-150,
         end_angle=150
@@ -166,8 +166,8 @@ settings_table = {
         bg_alpha=0.3,
         fg_colour=0x2aa198,
         fg_alpha=0.7,
-        x=300, y=150,
-        radius=30,
+        x=296, y=160,
+        radius=42,
         thickness=6,
         start_angle=-150,
         end_angle=150
@@ -180,8 +180,8 @@ settings_table = {
         bg_alpha=0.3,
         fg_colour=0xd33682,
         fg_alpha=0.7,
-        x=300, y=275,
-        radius=58,
+        x=60, y=360,
+        radius=54,
         thickness=8,
         start_angle=-150,
         end_angle=150
@@ -194,8 +194,8 @@ settings_table = {
         bg_alpha=0.3,
         fg_colour=0x268bd2,
         fg_alpha=0.7,
-        x=300, y=275,
-        radius=50,
+        x=60, y=360,
+        radius=46,
         thickness=8,
         start_angle=-150,
         end_angle=150
@@ -208,8 +208,8 @@ settings_table = {
         bg_alpha=0.3,
         fg_colour=0x2aa198,
         fg_alpha=0.7,
-        x=300, y=400,
-        radius=58,
+        x=180, y=360,
+        radius=54,
         thickness=8,
         start_angle=-150,
         end_angle=150
@@ -222,8 +222,8 @@ settings_table = {
         bg_alpha=0.3,
         fg_colour=0x268bd2,
         fg_alpha=0.7,
-        x=300, y=400,
-        radius=50,
+        x=180, y=360,
+        radius=46,
         thickness=8,
         start_angle=-150,
         end_angle=150
@@ -236,8 +236,8 @@ settings_table = {
         bg_alpha=0.3,
         fg_colour=0x6c71c4,
         fg_alpha=0.7,
-        x=300, y=400,
-        radius=42,
+        x=180, y=360,
+        radius=38,
         thickness=8,
         start_angle=-150,
         end_angle=150
@@ -250,8 +250,8 @@ settings_table = {
         bg_alpha=0.3,
         fg_colour=0xb58900,
         fg_alpha=0.7,
-        x=300, y=525,
-        radius=58,
+        x=300, y=360,
+        radius=54,
         thickness=8,
         start_angle=-150,
         end_angle=150
@@ -264,8 +264,8 @@ settings_table = {
         bg_alpha=0.3,
         fg_colour=0x6c71c4,
         fg_alpha=0.7,
-        x=300, y=525,
-        radius=50,
+        x=300, y=360,
+        radius=46,
         thickness=8,
         start_angle=-150,
         end_angle=150
@@ -278,8 +278,8 @@ clock_r=100
 
 -- "clock_x" and "clock_y" are the coordinates of the centre of the clock, in pixels, from the top left of the Conky window.
 
-clock_x=120
-clock_y=175
+clock_x=110
+clock_y=190
 
 show_seconds=true
 
